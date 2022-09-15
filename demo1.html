@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+</head>
+<body>
+    <div style="text-align: center;">
+        <h4 >登录</h4>
+        <hr>
+        <p>账号: <input type="text" id="account" placeholder="请输入账号"> </p>
+        <p>密码: <input type="text" id="password" placeholder="请输入密码"> </p>
+        <button id="login" onclick="login()">登录</button>
+    </div>
+</body>
+<script>
+    function login(){
+        //账号：admin,密码；123456
+        var account=document.getElementById("account");
+        var password=document.getElementById("password");
+        // 判断正确与否
+        if(account.value=="admin"&&password.value=="123456"){
+            document.location.href = "https://www.baidu.com/"
+        }else{
+            alert("账号或密码错误")
+        }}
+</script>
+</html>

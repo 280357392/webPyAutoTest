@@ -1,0 +1,18 @@
+[
+  {
+    "domain": "sahitest.com",
+    "httpOnly": false,
+    "name": "password",
+    "path": "/",
+    "secure": false,
+    "value": "88888"
+  },
+  {
+    "domain": "sahitest.com",
+    "httpOnly": false,
+    "name": "myname",
+    "path": "/",
+    "secure": false,
+    "value": "jack111"
+  }
+]
